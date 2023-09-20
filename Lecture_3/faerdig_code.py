@@ -1,5 +1,5 @@
  ###################################
-# Group ID : <gr oup_id >
+# Group ID : 985
 # Members : Sif Bjerre Lindby, Mads Lindeborg Larsen, Jakob Olavi Grangaard Olesen
 # Date : 15/9 - 2023
 # Lecture: 3 Parametric and nonparametric methods 
@@ -145,7 +145,6 @@ def assignment_b():
    print(f"The accuracy for assignment b) is: {accuracy*100:.2f}%")
    return
 
-# (c) classify instances in tst_xy_126 by assuming a prior probability of 0.9 for Class x and 0.1 for Class y, and use the corresponding label file tst_xy_126_class to calculate the accuracy; compare the results with those of (b).
 def assignment_c():
 
 # First we define our prior probabilities and likelihoods
@@ -157,7 +156,6 @@ def assignment_c():
    posterior_xy_in_x = [x * prior_x_c for x in likelihood_xy_in_x]
    posterior_xy_in_y = [y * prior_y_c for y in likelihood_xy_in_y]
    max_index_xy_list = classify_data(posterior_xy_in_x, posterior_xy_in_y)
-   # print(max_index_xy_list)
 
 # Now that we have posteriors for both x and y we can classify the test data and compute the accuracy
    x_from_xy = []
