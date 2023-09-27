@@ -2,7 +2,7 @@
 # Group ID : 985
 # Members : Jakob G. Olesen, Mads Lindeborg Larsen, Sif Bjerre Lindby
 # Date : September 27 2023
-# Lecture: 4 Dimensionality reduction
+# Lecture: 5 clustering
 # Dependencies: numpy, scipy.stats, scipy.io, matplotlib.pyplot, sklearn.decomposition, sklearn.decomposition, sklearn.mixture
 # Python version: 3.11.3
 # Functionality: This script computes a GMM model as compares the covariances and means to similar data for a PCA model
