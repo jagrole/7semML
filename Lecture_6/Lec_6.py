@@ -51,7 +51,7 @@ test_set = test_set1/255
 
 def PCA_test():
     decomp = PCA(n_components=9)
-    trnPCA= decomp.fit_transform(train_set, train_targets)
+    trnPCA = decomp.fit_transform(train_set)
     test_PCA = decomp.transform(test_set)
     trainPCA = {str(i): trnPCA[train_targets == (i)] for i in range(10)}
 
